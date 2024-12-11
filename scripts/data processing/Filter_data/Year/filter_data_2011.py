@@ -34,8 +34,8 @@ def filter_data(input_path, output_path, filters):
 
 if __name__ == "__main__":
     input_csv = "data/cleaned/cleaned_population.csv"
-    output_csv = "data/filtered/filtered_population.csv"
+    output_csv = "data/filtered/Year/filtered_population_2011.csv"
     filters = {
-        'Year': 2020  # Lọc dữ liệu cho năm 2016
+        'Year': 2011  # Lọc dữ liệu cho năm 2011
     }
     filter_data(input_csv, output_csv, filters)
